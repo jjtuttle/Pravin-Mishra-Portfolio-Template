@@ -40,3 +40,14 @@ Add this line (example):
 ```
 
 ✅ This proof must be visible in your browser screenshot submission.
+
+## 02/07/2026 Added Dynamic date to Footer in <span id="deployDate">05 Feb 2026</span> — By James Tuttle
+">
+
+```JS
+         <script>
+          const d = new Date();
+          const formattedDate = d.toISOString().split("T")[0];
+          document.getElementById("deployDate").textContent = formattedDate;
+        </script>
+```
