@@ -42,7 +42,6 @@ Add this line (example):
 ✅ This proof must be visible in your browser screenshot submission.
 
 ## 02/07/2026 Added Dynamic date to Footer in <span id="deployDate">05 Feb 2026</span> — By James Tuttle
-">
 
 ```JS
          <script>
@@ -51,3 +50,6 @@ Add this line (example):
           document.getElementById("deployDate").textContent = formattedDate;
         </script>
 ```
+
+<img width="792" height="519" alt="Screenshot 2026-02-06 at 11 01 19 PM" src="https://github.com/user-attachments/assets/290b3b5c-1f77-4e7e-a2d0-da941b328817" />
+
