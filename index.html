@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -702,17 +702,35 @@
         </div>
 
         <!-- Bottom -->
-        <div class="footer-bottom">
-          <p>© <span id="year"></span> Pravin Mishra. All rights reserved.</p>
-          <p>Crafted with <span>cloud</span> excellence by Pravin Mishra</p>
-          <p>
+        <div
+          class="footer-bottom"
+          style="
+            font-size: 0.9375rem;
+            line-height: 1.6;
+            padding: 1.25rem 1rem;
+            margin: 0;
+            color: #c4c4c4;
+          "
+        >
+          <p style="margin: 0 0 0.5rem 0">
+            © <span id="year">2026</span> Pravin Mishra. All rights reserved.
+          </p>
+          <p style="margin: 0 0 0.5rem 0">
+            Crafted with <span>cloud</span> excellence by Pravin Mishra
+          </p>
+          <p style="margin: 0">
             Pravin Mishra Portfolio v1.0 — Deployed on
-            <span id="deployDate">05 Feb 2026</span> — By James Tuttle
+            <span id="deployDate">05 Feb 2026</span> —
+            <span style="color: #86efac"
+              >By James
+              <span style="font-size: 1.125rem; color: #fff; font-weight: 700"
+                >Tuttle</span
+              ></span
+            >
           </p>
         </div>
 
         <script>
-          //
           const d = new Date();
           const formattedDate = d.toISOString().split("T")[0];
           document.getElementById("deployDate").textContent = formattedDate;
